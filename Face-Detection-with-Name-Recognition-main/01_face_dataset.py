@@ -28,7 +28,7 @@ while(True):
         cv2.rectangle(img, (x,y), (x+w,y+h), (255,0,0), 2)     
         count += 1
 
-        # Save the captured image into the datasets folder
+
         cv2.imwrite("dataset/User." + str(face_id) + '.' + str(count) + ".jpg", gray[y:y+h,x:x+w])
 
         cv2.imshow('image', img)
