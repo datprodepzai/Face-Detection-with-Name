@@ -1,2 +1,2 @@
 # BaiTap1
-Đây là bài tập trong khoá học về github
+Bài Tập về nhận diện danh tính
